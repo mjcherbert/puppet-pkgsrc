@@ -1,6 +1,5 @@
 ---
-
-pkgsrc::bootstrap::unprivileged: false
-pkgsrc::bootstrap::native_build_pkgs: [ ]
-pkgsrc::bootstrap::dist_media_url: http://cdn.netbsd.org/pub/pkgsrc/stable/pkgsrc-2017Q3.tar.bz2
+pkgsrc::unprivileged: false
+pkgsrc::native_build_pkgs: [ ]
+pkgsrc::dist_media_url: http://cdn.netbsd.org/pub/pkgsrc/stable/pkgsrc-2017Q3.tar.bz2
 

@@ -1,0 +1,20 @@
+{
+  "name": "mjcherbert-pkgsrc",
+  "version": "0.1.0",
+  "author": "Malcolm Herbert <mjch@mjch.net>",
+  "summary": "Installs, configures, and manages pkgsrc builds.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/mjcherbert/puppet-pkgsrc",
+  "project_page": "https://github.com/mjcherbert/puppet-pkgsrc",
+  "issues_url": "https://github.com/mjcherbert/puppet-pkgsrc",
+  "dependencies": [
+    { "name":"puppetlabs/stdlib","version_requirement":">= 4.13.1 < 5.0.0" }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "description": "pkgsrc module"
+}

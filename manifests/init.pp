@@ -5,8 +5,7 @@
 # @param unprivileged [Optional[Boolean]] Enables build in unprivileged mode. Default value: undef
 
 class pkgsrc (
-  Boolean $unprivileged, 
-  String $user,
+  Boolean $unprivileged,
 ) {
 
   contain pkgsrc::media
