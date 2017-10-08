@@ -1,0 +1,12 @@
+---
+
+pkgsrc::bootstrap::native_build_pkgs:
+  - 'cvs'
+  - 'g++'
+  - 'gcc'
+  - 'libncurses5-dev'
+  - 'libssl-dev'
+  - 'libudev-dev'
+  - 'zlib1g'
+  - 'zlib1g-dev'
+
