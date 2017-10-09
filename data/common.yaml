@@ -1,5 +1,22 @@
 ---
-pkgsrc::unprivileged: false
+pkgsrc::build_dir: /var/tmp/pkgsrc
+pkgsrc::build_group: vagrant
+pkgsrc::build_user: vagrant
+pkgsrc::dist_dir: /vagrant/dist/distfiles
+pkgsrc::local_base: /usr/pkg
 pkgsrc::native_build_pkgs: [ ]
-pkgsrc::dist_media_url: http://cdn.netbsd.org/pub/pkgsrc/stable/pkgsrc-2017Q3.tar.bz2
-
+pkgsrc::pkg_db_dir: /usr/pkg/.pkgdb
+pkgsrc::pkg_info_dir: info
+pkgsrc::pkgin_repo_dir: /vagrant/dist/packages
+pkgsrc::pkg_man_dir: man
+pkgsrc::pkgsrc_dir: /usr/pkgsrc
+pkgsrc::pkgsrc_media_checksum: abf9372e408752a84e38005b414e404b35360f4c8ebde40a20275cfd66661d70
+pkgsrc::pkgsrc_media_checksum_type: sha256
+pkgsrc::pkgsrc_media_file: pkgsrc-2017Q3.tar.bz2
+pkgsrc::pkgsrc_media_host: http://cdn.netbsd.org
+pkgsrc::pkgsrc_media_path: /pub/pkgsrc/stable
+pkgsrc::pkg_tools_bin: /usr/pkg/sbin
+pkgsrc::spool_dir: /vagrant/dist
+pkgsrc::extract_dir: /usr
+pkgsrc::unprivileged: no
+pkgsrc::var_base: /usr/pkg/var
